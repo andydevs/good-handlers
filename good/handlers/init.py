@@ -83,6 +83,7 @@ class UnderscoreInitHandler(NameInitHandler):
     """
     _prefix = '_'
 
+
 class DunderInitHandler(NameInitHandler):
     """
     NamedInit that appends an dunder, or double-underscore, to each name in the init
