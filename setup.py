@@ -15,5 +15,5 @@ setup(name='good-handlers',
       description='Method and function handlers that implement common behavior',
       author='Anshul Kharbanda',
       author_email='akanshul97@gmail.com',
-      url='https://www.github.org/andydevs/good-handlers',
-      packages=['good.handlers'])
+      url='https://www.github.org/andydevs/good_handlers-handlers',
+      packages=['good_handlers'])

@@ -7,7 +7,6 @@ behaviors without writing the entire function
 Author:  Anshul Kharbanda
 Created: 6 - 24 - 2018
 """
-from functools import partial
 from . import InstanceHandler
 
 
