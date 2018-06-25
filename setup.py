@@ -7,7 +7,7 @@ behaviors without writing the entire function
 Author:  Anshul Kharbanda
 Created: 6 - 24 - 2018
 """
-from distutils.core import setup
+from setuptools import setup
 
 # Create setup function
 setup(name='good-handlers',
