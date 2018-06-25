@@ -9,6 +9,7 @@ Created: 6 - 24 - 2018
 """
 from functools import wraps
 
+
 class Handler:
     """
     Base class for Handler objects
@@ -45,6 +46,7 @@ class Handler:
         # Return handler
         return __bound_handler
 
+
 class InstanceHandler(Handler):
     """
     Base class for instance handler classes
@@ -63,6 +65,7 @@ class InstanceHandler(Handler):
         """
         # Return bound handler if instance is defined else return handler
         return self if instance is None else self.bind(instance)
+
 
 class ClassHandler(Handler):
     """

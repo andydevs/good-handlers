@@ -9,6 +9,7 @@ Created: 6 - 24 - 2018
 """
 from . import InstanceHandler
 
+
 class NameInitHandler(InstanceHandler):
     """
     Handles initialization of an object by defining named parameters according
@@ -71,6 +72,7 @@ class NameInitHandler(InstanceHandler):
         for name in self._names:
             if not hasattr(instance, self._prefix+name):
                 raise Exception('Required name \'{}\' is not given!'.format(name))
+
 
 class UnderscoreInitHandler(NameInitHandler):
     """

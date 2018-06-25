@@ -10,6 +10,7 @@ Created: 6 - 24 - 2018
 from functools import partial
 from . import InstanceHandler
 
+
 class ValueStringHandler(InstanceHandler):
     """
     String representation which displays values of given keys
@@ -45,6 +46,7 @@ class ValueStringHandler(InstanceHandler):
         :return: the value string for the given key
         """
         return repr(getattr(obj, key))
+
 
 class KeyValueStringHandler(ValueStringHandler):
     """
